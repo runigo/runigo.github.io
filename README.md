@@ -1,7 +1,3 @@
-# runigo.github.io
-Simulateurs pour les sciences physiques
-
-
 <!DOCTYPE html>
 <html>
 <head>
