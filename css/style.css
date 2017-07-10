@@ -1,62 +1,62 @@
 form
 {
 	margin: 0 auto;
-	width: 400px;
+	width: 405px;
 	padding: 1em;
-	border: 1px solid #CCC;
+	border: 3px solid #CCC;
 	border-radius: 3em;
 }
 body
 {
 	background-color: #444444;
 	color: white;
-	margin: 20px;
-	border-radius: 7px;
+	margin: 25px;
+	border-radius: 3px;
 	font-family: quicksandregular, Arial, sans-serif;
 }
 header
 {
 	background-color: #ccabab;
 	color: white;
-	border-radius: 7px;
-	box-shadow: 1px 1px 0px white;
+	border-radius: 3px;
+	box-shadow: 3px 3px 5px white;
 }
 nav
 {
-	background-color: 775C5C;
+	background-color: #cbcbcb;
 	color: black;
 	width: 21%;
 	float:left;
-	border-radius: 7px;
-	box-shadow: 1px 1px 0px white;
+	border-radius: 3px;
+	box-shadow: 3px 3px 5px white;
 }
 section
 {
 	background-color: #cccccc;
 	color: black;
-	width: 79%;
-	margin-left: 30%;
-	border-radius: 7px;
-	box-shadow: 1px 1px 0px white;
+	width: 76%;
+	margin-left: 24%;
+	border-radius: 3px;
+	box-shadow: 3px 3px 5px white;
 }
 article
 {
-	margin: 20px 20px 0px 20px;
+	margin: 25px 25px 5px 25px;
 	background-color: #aaaaff;
 	color: red;
-	border-radius: 7px;
-	box-shadow: 1px 1px 0px white;
+	border-radius: 3px;
+	box-shadow: 3px 3px 5px white;
 }
 footer
 {
 	background-color: #aebeae;
 	color: blue;
-	border-radius: 7px;
-	box-shadow: 1px 1px 0px white;
+	border-radius: 3px;
+	box-shadow: 3px 3px 5px white;
 }
 #bloc_page
 {
-	width: 757px
+	width: 753px
 }
 .marge
 {
