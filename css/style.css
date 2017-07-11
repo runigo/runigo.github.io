@@ -8,7 +8,7 @@ form
 }
 body
 {
-	background-color: #444444;
+	background-color: #443333;
 	color: white;
 	margin: 25px;
 	border-radius: 3px;
@@ -32,7 +32,7 @@ nav
 }
 section
 {
-	background-color: #cccccc;
+	background-color: #eedcfc;
 	color: black;
 	width: 76%;
 	margin-left: 24%;
@@ -41,11 +41,9 @@ section
 }
 article
 {
-	margin: 25px 25px 5px 25px;
-	background-color: #aaaaff;
-	color: red;
-	border-radius: 3px;
-	box-shadow: 3px 3px 5px white;
+	margin: 25px 25px 25px 25px;
+	background-color: #eedcfc;
+	color: black;
 }
 footer
 {
