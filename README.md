@@ -1,5 +1,5 @@
 # runigo.github.io
-Simulateurs pour les sciences physiques.
+Présentation des simulateurs pour les sciences physiques.
 
 Chaîne de pendule, corde vibrante, transformée de fourier, gaz parfait.
 

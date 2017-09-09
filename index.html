@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="css/style.css">
-	<title> SiCP </title>
+	<title> Simulateurs </title>
 </head>
 <body>
 	<header>
@@ -22,9 +22,6 @@
 				<a href="SiCF.html" >SiCF
 				<IMG src=./images/heisenberg2.jpg alt="Copie d'écran SiCF" WIDTH=70%></a>
 			</br>
-				<a href="SiCP64.html" >SiCP64
-				<IMG src=./images/SiCP64.jpg alt="Copie d'écran SiCP64" WIDTH=70%></a>
-			</br>
 				<a href="SiGP.html" >SiGP
 				<IMG src=./images/SiGP.jpg alt="Copie d'écran SiGP" WIDTH=70%></a>
 			</br>
@@ -35,15 +32,17 @@
 	<section>
 			<h6></br></h6>
 		<article>
-			<h4>La suite SiCP</h4>
-			SiCP, SiCF et SiCP64 sont des simulateurs numériques d'équations physiques offrant une 
+			SiCP, SiCF et SiGP sont des simulateurs numériques d'équations physiques offrant une 
 			représentation graphique et une interaction dynamique avec les paramètres physiques. 
-			ils sont écrits en C et utilisent la librairie graphique SDL 1.2. La documentation LaTeX 
-			accompagnant ces programmes fournit la procédure d'installation, les commandes permettant 
-			l'interaction avec les programmes, ainsi qu'un certain nombre de développements théoriques.
+			Destinés à un usage pédagogique, ils permettent de visualiser le comportement des systèmes
+			physiques simulés.
+			Ces programmes sont écrits en C et utilisent la librairie graphique SDL 1.2. Une documentation 
+			LaTeX accompagne ces programmes. Elle fournit la procédure d'installation, les commandes 
+			permettant l'interaction avec les programmes, ainsi qu'un certain nombre de développements 
+			théoriques.
 		</article>
 		<article>
-			<h4>Fonctionnalités commune</h4>
+			<h4>Fonctionnalités de SiCP et SiCF</h4>
 			<ul>
 				<li>Moteur sinusoïdale, carré, impulsion.
 				<li>Conditions  aux limites libres, fixes.
@@ -55,7 +54,7 @@
 			<ul>
 				<li>SiCP
 					<ul>
-						<li><b>Réglage du nombre de pendules.</b>
+						<li><b>Graphisme en 3 dimensions, déplacement du point du vue.</b>
 						<li>Simulation de l'équation de sine-gordon
 						<li>Réglage du courant josephson.
 						<li>Conditions aux limites périodiques.
@@ -65,19 +64,17 @@
 						<li><b>Représentation spectrale.</b>
 						<li>Simulation et représentation de la corde vibrante.
 					</ul>
-				<li>SiCP64
-					<ul>
-						<li><b>Graphisme en 3 dimensions, déplacement du point du vue.</b>
-						<li>Simulation de l'équation de sine-gordon
-						<li>Réglage du courant josephson.
-						<li>Conditions aux limites périodiques.
-					</ul>
 			</ul>
 		</article>
 		<article>
 			<h4>SiGP</h4>
 			Écrit en C et utilisant la librairie graphique SDL 1.2. SiGP simule des collisions 
 			élastique et en donne une représentation graphique.
+				<ul>
+					<li>Détente de joule,
+					<li>Système isolé, système thermostaté,
+					<li>Démon de Maxwel.
+				</ul>
 		</article>
 	<h6></br></h6>
 	</section>
