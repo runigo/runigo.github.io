@@ -16,6 +16,8 @@ body
 }
 header
 {
+	margin: 0.73% 0.73% 03.73% 03.73% ;
+	padding: 0.73% 0.73% 0.73% 0.73% ;
 	background-color: #ccabab;
 	color: white;
 	border-radius: 3px;
@@ -23,24 +25,30 @@ header
 }
 nav
 {
+	margin: 0.73% 0.73% 0.73% 0.73% ;
+	padding: 0.73% 0.73% 0.73% 0.73% ;
 	background-color: #cbcbcb;
 	color: black;
-	width: 21%;
+	width: 19%;
 	float:left;
 	border-radius: 3px;
 	box-shadow: 3px 3px 5px white;
 }
 section
 {
+	margin: 0.73% 0.73% 03.3% 03.3% ;
+	padding: 0.73% 0.73% 01.73% 01.73% ;
 	background-color: #eedcfc;
 	color: black;
-	width: 76%;
+	width: 73%;
 	margin-left: 24%;
 	border-radius: 3px;
 	box-shadow: 3px 3px 5px white;
 }
 article
 {
+	margin: 0.73% 0.73% 03.3% 03.3% ;
+	padding: 0.73% 0.73% 01.73% 01.73% ;
 	margin: 25px 25px 25px 25px;
 	background-color: #eedcfc;
 	color: black;

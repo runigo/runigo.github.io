@@ -6,12 +6,13 @@
 	<link rel="stylesheet" href="css/style.css">
 	<title> Téléchargement  et installation</title>
 </head>
-</br>
+
 <body>
-	<header></br>
-		<h2><p style="text-align:center"> Téléchargement  et installation </p></h2></br>
+
+	<header>
+		<h2><p style="text-align:center"> Téléchargement  et installation </p></h2>
 	</header>
-</br>
+
 	<nav>
 		<h5><a href="index.html" >
 			Accueil
@@ -29,60 +30,88 @@
 			Téléchargement
 		</a></h5>
 	</nav>
-</br>
-	<section>
-		<div style="text-align:center;">
-		</br>
-		<h4>Pour windows</h4>
-		</br>
-		</br>
-		<!--		POUR WINDOWS		-->
-	<article>
+
+<section>
+		<h4>Licence</h4>
+		Les programmes disponibles sur ce dépot dont l'installation est décrite ci dessous sont 
+		régi par la licence CeCILL (telle que diffusée par le CEA, le CNRS et l'INRIA
+		sur le site "http://www.cecill.info") soumise au droit français et
+		respectant les principes de diffusion des logiciels libres.
+	<article>	<!--		TÉLÉCHARGEMENT		-->
+		
+		<h5><p style="text-align:center">Résumé de la licence</p></h5>
+
+	En contrepartie de l'accessibilité au code source et des droits de copie,
+	de modification et de redistribution accordés par cette licence, il n'est
+	offert aux utilisateurs qu'une garantie limitée. Pour les mêmes raisons,
+	seule une responsabilité restreinte pèse sur l'auteur du programme, le
+	titulaire des droits patrimoniaux et les concédants successifs.
+	A cet égard l'attention de l'utilisateur est attirée sur les risques
+	associés au chargement, à l'utilisation, à la modification et/ou au
+	développement et à la reproduction du logiciel par l'utilisateur étant
+	donné sa spécificité de logiciel libre, qui peut le rendre complexe à
+	manipuler et qui le réserve donc à des développeurs et des professionnels
+	avertis possédant des connaissances informatiques approfondies. Les
+	utilisateurs sont donc invités à charger et tester l'adéquation du
+	logiciel à leurs besoins dans des conditions permettant d'assurer la
+	sécurité de leurs systèmes et ou de leurs données et, plus généralement,
+	à l'utiliser et l'exploiter dans les mêmes conditions de sécurité.
+	Le fait que vous puissiez accéder à cet en-tête signifie que vous avez
+	pris connaissance de la licence CeCILL, et que vous en avez accepté les
+	termes.
+	</article>
+</section>
+
+<section>	<!--		POUR WINDOWS		-->
+		<h4>Fichiers exécutables pour windows</h4>
+
+		Afin d'exécuter SiCP2 et SiGP2 sous windows sans avoir à compiler les sources, il est possible
+		d'utiliser les fichiers exécutables contenus dans les archives suivantes. Ces fichiers sont 
+		la version debug créée par code::block via mingw. Ils ne conviennent pas à toute les versions
+		de windows.
+	<article>	<!--		TÉLÉCHARGEMENT		-->
+		
 		<h5><p style="text-align:center">Liens de téléchargement</p></h5>
 		<ul>
-			<li><a href="SiCP4win.7z" > SiCP </a> Simulateur de chaîne de pendule.
-			<li><a href="SiGP4win.7z" > SiGP </a> Simulateur de thermodynamique.
+			<li><a href="SiCP4win.7z" > SiCP2 </a> &nbsp;&nbsp;&nbsp; SiCP 2.3 Simulateur de chaîne de pendule.
+			<li><a href="SiGP4win.7z" > SiGP2 </a> &nbsp;&nbsp;&nbsp; SiGP 2.2 Simulateur de thermodynamique statistique.
 		</ul>
-		</br>
 	</article>
-		</br>
 		<!--		INSTALLATION		-->
 	<article>
 		<h5><p style="text-align:center">Installation</p></h5>
 		Chacune des archives contient des images .bmp, un fichier .dll, et un fichier .exe.
-		Le répertoire dézippé peut être renommé, déplacé. Un lien peut être créé vers l'exécutable.
-		<br />
+		Le répertoire dézippé peut être renommé, déplacé.
+		Un lien peut être créé vers l'exécutable.
 	</article>
-		</br>
 		<!--		TEST WIN 10		-->
 	<article>
 		<h5><p style="text-align:center">Test sur windows 10</p></h5>
-
 		<table border="0" >
 		<tr>
 			<td>
-			Windows defender bloque et affiche ceci
+			En cliquant sur le fichier exécutable, "windows defender" bloque l'exécution et affiche ceci
 			</td>
 			<td>
-				<IMG src=defender.jpg alt="defender" WIDTH=79%></a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-			Information complémentaire
-			</td>
-			<td>
-				<IMG src=information.jpg alt="information" WIDTH=79%></a>
+				<IMG src=./images/defender.jpg alt="defender" WIDTH=79%></a>
 			</td>
 		</tr>
 		<tr>
 			<td>
-			Executer quand même :
-			La fenêtre s’ouvre en haut a droite mais on ne vois pas (reduire agrandir fermer)
+			En cliquant sur "information complémentaire", le bouton "exécuter quand même"
+			apparaît, et permet le démarrage du simulateur.
+			</td>
+			<td>
+				<IMG src=./images/information.jpg alt="information" WIDTH=79%></a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			La fenêtre s’ouvre mais on ne voit pas (reduire agrandir fermer)
 			Impossible de bouger la fenêtre sauf en la redimensionnant.
 			</td>
 			<td>
-				<IMG src=fenetre.jpg alt="fenetre" WIDTH=79%></a>
+				<IMG src=./images/fenetre.jpg alt="fenetre" WIDTH=79%></a>
 			</td>
 		</tr>
 		<tr>
@@ -90,29 +119,54 @@
 			Puis tout est ok.
 			</td>
 			<td>
-				<IMG src=fin.jpg alt="fin" WIDTH=79%></a>
+				<IMG src=./images/fin.jpg alt="fin" WIDTH=79%></a>
 			</td>
 		</tr>
 		</table>
-		<br />
 	</article>
-		</br>
-		</br>
-	</section>
-		</br>
-	<section>
-		<div style="text-align:center;">
-		</br>
+</section>
+
+<section>
 		<h4>Codes sources</h4>
-		</br>
+		La compilation des sources permet de créer un fichier optimisé pour l'architecture du microprocesseur.
+		Elle nécessite l'installation des outils de compilation.
+	<article>	<!--		TÉLÉCHARGEMENT		-->
+		
+		<h5><p style="text-align:center">Liens de téléchargement</p></h5>
 		<ul>
-			<li> <a href="https://github.com/runigo/SiCP2/archive/master.zip" >SiCP</a> Simulateur de chaîne de pendule.
-			<li> <a href="https://github.com/runigo/SiGP2/archive/master.zip" >SiGP</a> Simulateur de thermodynamique. statistique.
+			<li> <a href="https://github.com/runigo/SiCP2/archive/master.zip" >SiCP2</a> &nbsp;&nbsp;&nbsp; Simulateur de chaîne de pendule.
+			<li> <a href="https://github.com/runigo/SiGP2/archive/master.zip" >SiGP2</a> &nbsp;&nbsp;&nbsp; Simulateur de thermodynamique statistique.
 		</ul>
-		</br>
-	</section>
-</br>
-</br>
+	</article>
+		<!--		COMPILATION LINUX		-->
+	<article>
+		<h5><p style="text-align:center">Compilation sur linux</p></h5>
+		
+		<ul>
+			<li> Installer les paquets gcc, make et libsdl2-dev
+			<li> Décompresser le répertoire xxxx2-master.zip
+			<li> Dans un terminal, accéder au répertoire xxxx2-master puis lancer la commande make
+			<li> Démarrer le fichier exécutable créé : ./xxxx2
+		</ul>
+	</article>
+		<!--		COMPILATION WINDOWS	
+	<article>
+		<h5><p style="text-align:center">Compilation sous windows</p></h5>
+		
+		<ul>
+			<li> Installer mingw et code::block
+			<li> Ouvrir le projet Projet_SDL2<a href="SiCP4win.7z" > SiCP </a>
+			<li> Supprimer le fichier main de ce projet
+			<li> Ajouter récursivement le code source du simulateur
+			<li> Construire le fichier exécutable
+			<li> Récupérer ce fichier dans debug
+			<li> Le copier dans un répertoire contenant les images bmp et le fichier SDL2.dll
+			<li> Tester l'exécution
+			<li> Déplacer le répertoire, créer un lien vers l'exécutable.
+		</ul>
+	</article>	-->
+</section>
+
 	<footer>
 		<h6><p style="text-align:right">
 		S.R.
