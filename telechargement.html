@@ -62,67 +62,34 @@
 	</article>
 </section>
 
-<section>	<!--		POUR WINDOWS		-->
-		<h4>Fichiers exécutables pour windows</h4>
 
-		Afin d'exécuter SiCP2 et SiGP2 sous windows sans avoir à compiler les sources, il est possible
-		d'utiliser les fichiers exécutables contenus dans les archives suivantes. Ces fichiers sont 
-		la version debug créée par code::block via mingw. Ils ne conviennent pas à toute les versions
-		de windows.
+
+<section>	<!--		POUR WINDOWS		-->
+		<h4>Installateur pour windows</h4>
 	<article>	<!--		TÉLÉCHARGEMENT		-->
-		
-		<h5><p style="text-align:center">Liens de téléchargement</p></h5>
+	Télécharger et exécuter les fichiers suivant :
 		<ul>
-			<li><a href="SiCP4win.7z" > SiCP2 </a> &nbsp;&nbsp;&nbsp; SiCP 2.3 Simulateur de chaîne de pendule.
-			<li><a href="SiGP4win.7z" > SiGP2 </a> &nbsp;&nbsp;&nbsp; SiGP 2.2 Simulateur de thermodynamique statistique.
+			<li><a href="setupSiCP.exe" > SiCP2 </a> &nbsp;&nbsp;&nbsp; SiCP 2.3 Simulateur de chaîne de pendule.
+			<li><a href="setupSiGP.exe" > SiGP2 </a> &nbsp;&nbsp;&nbsp; SiGP 2.2 Simulateur de thermodynamique statistique.
 		</ul>
-	</article>
-		<!--		INSTALLATION		-->
-	<article>
-		<h5><p style="text-align:center">Installation</p></h5>
-		Chacune des archives contient des images .bmp, un fichier .dll, et un fichier .exe.
-		Le répertoire dézippé peut être renommé, déplacé.
-		Un lien peut être créé vers l'exécutable.
-	</article>
-		<!--		TEST WIN 10		-->
-	<article>
-		<h5><p style="text-align:center">Test sur windows 10</p></h5>
-		<table border="0" >
-		<tr>
-			<td>
-			En cliquant sur le fichier exécutable, "windows defender" bloque l'exécution et affiche ceci
-			</td>
-			<td>
-				<IMG src=./images/defender.jpg alt="defender" WIDTH=79%></a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-			En cliquant sur "information complémentaire", le bouton "exécuter quand même"
-			apparaît, et permet le démarrage du simulateur.
-			</td>
-			<td>
-				<IMG src=./images/information.jpg alt="information" WIDTH=79%></a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-			La fenêtre s’ouvre mais on ne voit pas (reduire agrandir fermer)
-			Impossible de bouger la fenêtre sauf en la redimensionnant.
-			</td>
-			<td>
-				<IMG src=./images/fenetre.jpg alt="fenetre" WIDTH=79%></a>
-			</td>
-		</tr>
-		<tr>
-			<td>
-			Puis tout est ok.
-			</td>
-			<td>
-				<IMG src=./images/fin.jpg alt="fin" WIDTH=79%></a>
-			</td>
-		</tr>
-		</table>
+	L'exécution de ces fichiers crée le dossier d'installation.
+	Il est possible de choisir l'emplacement de ce dossier où laisser l'emplacement implicite C:/Program Files (x86).
+	Au cours de l'installation, cocher la case permettant de créer un lien sur le bureau permettant de démarrer ces programmes.
+	Il est alors possible de changer l'icône de ces raccourcis :
+
+Un cliq droit sur le racourci permet d'accéder aux "propriétés" :
+
+		<ul>
+			<li>Dans l'onglet "Raccourci" cliquer sur "Changer d'icône..."
+			<li>Cliquer sur Ok puis sur "Parcourir". Aller dans
+				<ul>
+					<li>Disque local (C:) / Program Files (x86) / SiCP
+					<li>Ouvrir sicp.bmp
+				</ul>
+			<li>Cliquer sur Ok
+			<li>Cliquer sur Ok
+			<li>Cliquer sur Continuer.
+		</ul>
 	</article>
 </section>
 
@@ -149,22 +116,23 @@
 			<li> Démarrer le fichier exécutable créé : ./xxxx2
 		</ul>
 	</article>
-		<!--		COMPILATION WINDOWS	
+		<!--		COMPILATION WINDOWS		-->
 	<article>
 		<h5><p style="text-align:center">Compilation sous windows</p></h5>
 		
 		<ul>
-			<li> Installer mingw et code::block
-			<li> Ouvrir le projet Projet_SDL2<a href="SiCP4win.7z" > SiCP </a>
+			<li> Installer mingw et code::block. 
+			<li> Télécharger et décompresser le modèle suivant pour les projets SDL2 <a href="Projet_SDL2_0_4_Windows_CodeBlocks.7z" > Projet_SDL2 </a>
+			<li> Dans le dossier, ouvrir avec code::block le fichier Projet_SDL2_0_4.cbp
 			<li> Supprimer le fichier main de ce projet
-			<li> Ajouter récursivement le code source du simulateur
+			<li> Ajouter le code source du simulateur
 			<li> Construire le fichier exécutable
 			<li> Récupérer ce fichier dans debug
 			<li> Le copier dans un répertoire contenant les images bmp et le fichier SDL2.dll
 			<li> Tester l'exécution
 			<li> Déplacer le répertoire, créer un lien vers l'exécutable.
 		</ul>
-	</article>	-->
+	</article>
 </section>
 
 	<footer>
